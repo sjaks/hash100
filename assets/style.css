@@ -1,0 +1,64 @@
+body {
+	margin:0;
+	padding:0;
+	background:#002f6c;
+	overflow:hidden;
+}
+
+#tagi {
+	position:absolute;
+	top:350px;
+	left:0;
+	transition:opacity 1s;
+}
+
+.by {
+	font-size:60px;
+	font-family:'Slabo 27px';
+}
+
+.tagi {
+	font-size:150px;
+	font-family:'Josefin Sans';
+}
+
+h1 {
+	color:white;
+	text-align:center;
+	width:100%;
+}
+
+#tagi-tausta {
+	position:absolute;
+	color:white;
+	font-size:50em;
+	left:-300px;
+	top:-200px;
+	font-family:'Josefin Sans';
+	opacity:0.1;
+	overflow:hidden;
+	transform:rotate(-15deg);
+	transition:opacity 1s, filter 1s, font-size 2s;
+}
+
+#otsikko {
+	font-size:100px;
+	color:white;
+	position:absolute;
+	width:100%;
+	text-align:center;
+	font-family: 'Kalam', cursive;
+	top:100px;
+}
+
+#lippu {
+	filter:brightness(0.8);
+	margin-bottom:60px;
+}
+
+#maisema {
+	position:absolute;
+	height:100%;
+	width:100%;
+	opacity:0.1;
+}
